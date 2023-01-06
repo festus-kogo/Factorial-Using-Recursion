@@ -1,7 +1,7 @@
 def factorial(n):
-    if n == 1:
+    if n == 1 or n == 0:
         return 1
     else:
         return n * factorial(n - 1)
     
-print("5 Factorial is: " + str(factorial(5)))
+print("0 Factorial is: " + str(factorial(0)))
